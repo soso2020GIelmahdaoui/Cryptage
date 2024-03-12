@@ -12,7 +12,7 @@ void crypter(char message, int decalage) {
         }
     }
 }
-
+// HABHOBI ZZ
 void decrypter(charmessage, int decalage) {
     crypter(message, 26 - decalage);
 }
@@ -30,7 +30,7 @@ int main() {
 
     crypter(message, decalage);
     printf("Message crypté: %s\n", message);
-
+// HABHOBI ZZ
     decrypter(message, decalage);
     printf("Message décrypté: %s\n", message);
 
